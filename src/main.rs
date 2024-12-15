@@ -1,3 +1,6 @@
+mod connection;
+mod frame;
+
 use bytes::Bytes;
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};
